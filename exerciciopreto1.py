@@ -1,22 +1,9 @@
-algoritmo "irrigacao"
+reservatorio = 500
+gasto = 30
+ciclos = 0
 
-var
-   agua, ciclos: inteiro
+while reservatorio > 0:
+    reservatorio = reservatorio - gasto
+    ciclos = ciclos + 1
 
-inicio
-
-   agua <- 500
-   ciclos <- 0
-
-   enquanto agua >= 30 faca
-
-      agua <- agua - 30
-      ciclos <- ciclos + 1
-
-      escreva("Água restante: ", agua, " litros\n")
-
-   fimenquanto
-
-   escreva("\nTotal de ciclos realizados: ", ciclos)
-
-fimalgoritmo
+print("Total de ciclos realizados:", ciclos)

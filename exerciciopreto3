@@ -1,0 +1,23 @@
+Algoritmo: Loja das Oliveiras
+
+var
+   quantidade: inteiro
+   valor: real
+
+inicio
+
+   quantidade <- 1
+
+   escreva("Loja das Oliveiras - Tabela de preços\n\n")
+
+   enquanto quantidade <= 50 faca
+
+      valor <- quantidade * 1.99
+
+      escreva(quantidade, " muda(s) - R$ ", valor:0:2, "\n")
+
+      quantidade <- quantidade + 1
+
+   fimenquanto
+
+fim
